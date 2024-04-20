@@ -1,0 +1,14 @@
+REST:
+    - Representational State Transfer
+    - RESTful APIs are stateless backends
+
+    BAsic idea beind Rest
+     1) we have a server with urls end-points
+     2) supporting different types of http requests(GET, POST,PUT,DELETE,PATCH)
+     3) but the underlying purpose is to exchange data mainly in JSON format but you can use XML 
+
+     API is said to be RESTful if
+     1) CLient-Server Architecture (shouldn't care about the UI)
+     2) stateless No Client-Context is tored on the server
+     3) Cacheability - Responses must define themselves as cacheable or non-cacheable
+     
